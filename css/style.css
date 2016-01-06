@@ -16,4 +16,5 @@ img.feature {border-radius: 0.5em; margin: 0.5em 0;}
 .text-caps {text-transform: uppercase;}
 .about {margin-bottom: 1em;}
 .contact {color: #20bede;}
-.profile {font-size: 1.25em;}
+.profile {font-size: 1.25em; margin-top: 1.5em;}
+.quote {width: 75%; margin: 0 auto;}
