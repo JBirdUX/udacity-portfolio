@@ -7,7 +7,7 @@ h1, h3 {
 	color: #e6e5e5;
 }
 
-h2, h4, a.nav {
+h2, h4, .nav {
 	font-family: "Roboto Slab", serif;
 	font-weight: 400;
 }
@@ -36,7 +36,7 @@ footer {
 	margin: 0.5em;
 	border-bottom: 0.1875em solid #1d1d1d;
 	font-size: 1.0625em;
-	font-weight: bold;
+	font-weight: 700;
 }
 
 .nav:hover {
