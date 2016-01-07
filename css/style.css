@@ -1,18 +1,21 @@
 h1, h3, h5, h6, a, p, span {font-family: "Roboto", sans-serif; font-weight: 400;}
 h1, h3 {color: #e6e5e5;}
-h2, h4, a:not(.contact) {font-family: "Roboto Slab", serif; font-weight: 400; color: #1d1d1d;}
+h2, h4, a.nav {font-family: "Roboto Slab", serif; font-weight: 400;}
+h2, h4 {color: #1d1d1d;}
 header, footer {background: #1d1d1d; padding: 1em 0;}
 header {margin-bottom: 1.5em;}
 footer {margin-top: 1em;}
-header a:not(.logo) {color: #e6e5e5; padding: 0.5em !important; margin: 0.5em; border-bottom: 0.1875em solid #007fad; font-size: 1.0625em; font-weight: bold;}
-header a:hover:not(.logo) {border-bottom: 0.1875em solid #77cfe0;}
-header a:visited:not(.logo) {color: #e6e5e5;}
+a.nav {color: #e6e5e5; padding: 0.5em !important; margin: 0.5em; border-bottom: 0.1875em solid #1d1d1d; font-size: 1.0625em; font-weight: bold;}
+a.nav:hover {border-bottom: 0.1875em solid #20bede;}
+a.nav:visited {color: #e6e5e5;}
 a {color: #20bede;}
-a:hover {color: #e6e5e5;}
-img.jason {display: block; margin: 1em auto; border: 0.325em solid #007fad; border-radius: 12em; max-width: 24em;}
-img.feature {border-radius: 0.5em; margin: 0.5em 0;}
+a:hover:not(.linkedin-rec) {color: #e6e5e5;}
+a.linkedin-rec:hover {color: #20bede; text-decoration: underline;}
+img.jason {display: block; margin: 1em auto; border: 0.325em solid #20bede; border-radius: 12em; max-width: 24em;}
+img.feature {border-radius: 1em; margin: 0.5em 0;}
 
 .logo {max-width: 15em;}
+.sm-icon {max-width: 2.5em; margin-left: 0.1875em;}
 .text-caps {text-transform: uppercase;}
 .about {margin-bottom: 1em;}
 .contact {color: #20bede;}
