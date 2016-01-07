@@ -5,13 +5,20 @@ h2, h4 {color: #1d1d1d;}
 header, footer {background: #1d1d1d; padding: 1em 0;}
 header {margin-bottom: 1.5em;}
 footer {margin-top: 1em;}
-a.nav {color: #e6e5e5; padding: 0.5em !important; margin: 0.5em; border-bottom: 0.1875em solid #1d1d1d; font-size: 1.0625em; font-weight: bold;}
+
+/*Navigation Links*/
+a.nav, a.nav:visited {color: #e6e5e5; padding: 0.5em !important; margin: 0.5em; border-bottom: 0.1875em solid #1d1d1d; font-size: 1.0625em; font-weight: bold;}
 a.nav:hover {border-bottom: 0.1875em solid #20bede;}
-a.nav:visited {color: #e6e5e5;}
-a {color: #20bede;}
-a:hover:not(.linkedin-rec) {color: #e6e5e5;}
-a.linkedin-rec:hover {color: #20bede; text-decoration: underline;}
-img.jason {display: block; margin: 1em auto; border: 0.325em solid #20bede; border-radius: 12em; max-width: 24em;}
+
+/*Links (Dark BG)*/
+a, a:visited {color: #20bede;}
+a:hover {color: #e6e5e5;}
+
+/*Links (Light BG)*/
+a.link-white:hover {color: #20bede; text-decoration: underline;}
+a.link-white:visited {color: #20bede;}
+
+img.jason {display: block; margin: 1em auto; border: 0.325em solid #20bede; border-radius: 8em; max-width: 16em;}
 img.feature {border-radius: 1em; margin: 0.5em 0;}
 
 .logo {max-width: 15em;}
